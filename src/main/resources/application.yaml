@@ -5,7 +5,7 @@ spring:
     import: optional:configserver:http://localhost:8871
 
 server:
-  port: 8850
+  port: 8872
 
 eureka:
   client:
