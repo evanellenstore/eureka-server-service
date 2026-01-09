@@ -3,11 +3,3 @@ spring:
     name: eureka-server-service
   config:
     import: configserver:http://localhost:8850
-
-server:
-  port: 8872
-
-eureka:
-  client:
-    register-with-eureka: false
-    fetch-registry: false
