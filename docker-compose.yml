@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  eureka-server-service:
+    image: evanellenstore/eureka-server-service:latest
+    container_name: eureka-server-service
+    ports:
+      - "9091:9091"
